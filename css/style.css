@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --header-color: #881337;
+    --header-button-color: #BE123C;
+    --banner-content-color: #475569;
+    --header-bottom-color: #94A3B8;
+    --heading-color: #0F172A;
+    --suggest-color: #2563EB;
+    --event-feture-color: #6B21A8;
+    --event-new-color: #166534;
+    --event-coming-color: #854D0E;
+    --header-bottom-bg-color: #F1F5F9;
+}
+body {
+    font-family: 'Roboto';
+}
+img {
+    width: 100%;
+    display: inline-block;
+}
+ol,
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.container {
+    max-width: 1320px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.32%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-10,
+.col-11,
+.col-12 {
+    position: relative;
+    padding: 0px 15px;
+}
+
+p {
+    color: var(--banner-content-color);
+}
+.align-items-center{
+    align-items: center;
+}
+.f-right{
+    float: right;
+}
+.d-i-block{
+    display: inline-block;
+}
+
+/* header-area */
+.header-area .main-header{
+    background-color: var(--header-color);
+    padding: 0px 185px;
+}
+.header-area .main-header h5 a{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    color: var(--white-color);
+}
+.header-area .main-header ul li{
+    position: relative;
+    display: inline-block;
+}
+.header-area .main-header ul li a{
+    color: var(--white-color);
+    font-weight: 500;
+    padding: 39px 19px;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: all .3s ease-out 0s;
+}
+.header-area .main-header ul li a:hover{
+    color: var(--header-bottom-color);
+    outline: invert;
+}
+/* header-button */
+  .border-btn {
+    border: 2px solid var(--white-color);
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    transition: color 0.4s linear;
+    overflow: hidden;
+    margin: 0;
+    transition: 1s all ease;
+  }
+  .border-btn::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
